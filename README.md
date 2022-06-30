@@ -1,6 +1,18 @@
 # Unite To Heal
 A support group portal uniting people with similar ailments.
 
+## Screenshots
+Home page
+![Screenshot 2022-06-30 at 12 38 06 PM](https://user-images.githubusercontent.com/72307161/176616591-a781cbc8-eb92-4b0d-b5bb-3c0a0a15c310.png)
+![Screenshot 2022-06-30 at 12 38 19 PM](https://user-images.githubusercontent.com/72307161/176616608-54679f65-c1dc-4dd5-9a04-1fd952c719ce.png)
+
+About page
+![Screenshot 2022-06-30 at 12 39 29 PM](https://user-images.githubusercontent.com/72307161/176616736-aa4e38d0-07d2-4c80-805c-3cfe420336fc.png)
+![Screenshot 2022-06-30 at 12 39 40 PM](https://user-images.githubusercontent.com/72307161/176616745-cb786def-16a6-41ba-9c2a-cf822a77ef1b.png)
+
+Contact Us page
+![Screenshot 2022-06-30 at 12 39 52 PM](https://user-images.githubusercontent.com/72307161/176616850-2524b5f6-e19b-49d6-8a06-8ba9bbc3941a.png)
+
 ## Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
