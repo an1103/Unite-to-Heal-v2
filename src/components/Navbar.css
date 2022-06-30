@@ -1,0 +1,32 @@
+
+/* Navbar */
+#navbar{
+    background-color: #3BACB6;
+    color: #f4f4f4;
+    overflow: auto;
+}
+
+#navbar .logo{
+    float: left;
+    padding-top: 20px;
+}
+#navbar a{
+    color: #fff;
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+}
+#navbar ul li a:hover, 
+#navbar ul li a.current{
+    background: #82DBD8;
+}

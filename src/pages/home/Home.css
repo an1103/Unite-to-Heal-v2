@@ -1,0 +1,62 @@
+/* Showcase */
+
+#showcase{
+    background: url('../../image_resources/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content{
+    padding-top: 170px;
+    padding-left: 400px;
+    color: #000;
+    text-align: center;
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p{
+    line-height: 1.7em;
+}
+
+/* Home info */
+#home-info{
+    height: 450px;
+}
+
+#home-info .info-img{
+    background: url('../../image_resources/info-hp.jpg') no-repeat center center/cover;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 100px 30px;
+    overflow: hidden;
+}
+
+/* Features */
+.box{
+    padding: 50px;
+    width: 33.3%;
+    text-align: center;
+}
+
+.box i{
+    margin-bottom: 20px;
+}
+
+/* Footer */
+#main-footer{
+    background: #3BACB6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
