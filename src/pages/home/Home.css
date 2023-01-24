@@ -28,13 +28,11 @@
 
 #home-info .info-img{
     background: url('../../image_resources/info-hp.jpg') no-repeat center center/cover;
-    float: left;
     width: 50%;
     height: 100%;
 }
 
 #home-info .info-content{
-    float: right;
     width: 50%;
     height: 100%;
     text-align: center;
@@ -59,4 +57,21 @@
     color: #fff;
     text-align: center;
     padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    #showcase {
+        height: 100%;
+    }
+    #showcase .showcase-content{
+        padding: 80px 0px 80px 100px;
+    }
+
+    #home-info .info-img{
+        display: none;
+    }
+    
+    #home-info .info-img, #home-info .info-content, .box{
+        width: 100%;
+    }
 }

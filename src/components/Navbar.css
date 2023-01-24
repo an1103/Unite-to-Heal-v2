@@ -1,32 +1,36 @@
-
 /* Navbar */
-#navbar{
+#navbar {
     background-color: #3BACB6;
-    color: #f4f4f4;
     overflow: auto;
 }
 
-#navbar .logo{
-    float: left;
-    padding-top: 20px;
-}
-#navbar a{
+#navbar a {
     color: #fff;
 }
-#navbar ul{
-    list-style: none;
-    float: right;
+
+nav h1 {
+    padding-top: 20px;
+    margin-right: auto;
 }
 
-#navbar ul li{
-    float: left;
-}
-
-#navbar ul li a{
-    display: block;
+#navbar a.nav-links{
     padding: 20px;
 }
-#navbar ul li a:hover, 
-#navbar ul li a.current{
+
+#navbar a.nav-links:hover {
     background: #82DBD8;
+}
+
+@media only screen and (max-width: 768px) {
+    #navbar a{
+        text-align: center;
+    }
+
+    nav h1{
+        margin: auto;
+    }
+
+    #navbar a.nav-links {
+        border-bottom: #82DBD8 1px dotted;
+    }
 }

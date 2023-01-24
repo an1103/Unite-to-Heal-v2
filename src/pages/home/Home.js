@@ -19,13 +19,11 @@ export default function Home() {
                 </div>
             </header>
 
-            <div id="home-info" className="bg-dark">
+            <div id="home-info" className="flex-container bg-dark">
                 <div className="info-img"></div>
                 <div className="info-content">
                     <h1>Our Vision</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut modi dignissimos voluptates corrupti
-                        repellat laborum eveniet enim perspiciatis suscipit recusandae! Voluptate odio dolorum sint earum fugit
-                        numquam deserunt, praesentium maxime!
+                    <p> Medical personnel, family and friends may not provide adequate emotional support since they may not understand the impact of a disease or treatment. We aim to bridge the gap between medical and emotional needs.
                     </p>
                     <Link to="/about" className="btn btn-light">Read More</Link>
                 </div>

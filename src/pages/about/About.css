@@ -1,7 +1,6 @@
 /* About info */
 
 #about-info .info-right{
-    float: right;
     width: 50%;
     min-height: 100%;
 }
@@ -14,17 +13,9 @@
 }
 
 #about-info .info-left{
-    float: left;
     width: 50%;
     min-height: 100%;
 }
-
-#about-info::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
 
 /* Testimonials */
 #testimonials{
@@ -56,4 +47,14 @@
     content: "";
     display: block;
     clear: both;
+}
+
+@media only screen and (max-width: 768px) {
+    #about-info .info-left, #about-info .info-right{
+        width: 100%;
+    }
+
+    #about-info .info-right img{
+        margin-top: 30px;
+    }
 }
